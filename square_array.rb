@@ -2,5 +2,5 @@ require 'pry'
 def square_array(array)
  final_array = []
  array.each {|el| final_array << el ** 2}
- final-array
+ final_array
 end
