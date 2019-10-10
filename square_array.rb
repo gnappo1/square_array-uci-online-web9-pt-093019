@@ -1,4 +1,6 @@
 require 'pry'
 def square_array(array)
- binding.pry  
+ final-array = []
+ array.each {|el| final-array << el ** 2}
+ final-array
 end
